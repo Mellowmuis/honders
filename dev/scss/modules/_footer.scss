@@ -1,0 +1,35 @@
+.Footer {
+	position:relative;
+	background:$c-primary;
+	color:white;
+	padding-top:20px;
+	h4{
+		color:white;
+		line-height: 1;
+		font-size: 20px;
+		margin-top: 0px;
+	}
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+.footer-keur{
+	background-image: url(../img/whitefooter.svg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	height:183px;
+	margin-top: -21px;
+}
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
