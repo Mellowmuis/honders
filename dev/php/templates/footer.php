@@ -1,9 +1,28 @@
 	<div class="Footer"> 
 		<div class="u-gridContainer">
 			<div class="u-gridCol4 footer-keur">
+				<!--<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/whitefooter1.svg" style="width:100%; height:100%; margin-bottom:-6px;">-->
+				<div class="u-gridContainer">
+					<div class="u-gridRow">
+						<div class="u-gridCol6">
+							<a href="http://www.degeschillencommissie.nl/over-ons/de-commissies/2713/advocatuur"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/geschil.png"></a>
+						</div>
+						<div class="u-gridCol6">
+							<a href="http://debesteadvocaat.nl/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/kwali.png"></a>
+						</div>
 
+					
+					
+					</div>
+					<div class="u-gridRow">
+						<a href="http://mediatorsearch.prod.rvr.org/nl/subhome_rbv/high_trust"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/high.png"></a>
+					</div>
+
+				</div>
+
+				
 			</div>
-			<div class="u-gridCol2">
+			<div class="u-gridCol2" style="margin-top:20px;">
 				<b>Adresgegevens</b>
 				<ul>
 					<li>Vasteland 78</li>
@@ -11,7 +30,7 @@
 					<li>Rotterdam</li>
 				</ul>
 			</div>
-			<div class="u-gridCol3">
+			<div class="u-gridCol3" style="margin-top:20px;">
 				<b>Contact</b>
 				<ul>
 					<li>06-24844873</li>
@@ -20,7 +39,7 @@
 				</ul>
 			</div>
 
-			<div class="u-gridCol3">
+			<div class="u-gridCol3" style="margin-top:20px;">
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 			
 				<?php dynamic_sidebar( 'footer-widgets' ); ?>
@@ -51,6 +70,7 @@
   <!-- build:remove:compressed -->
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/landingpage-select.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/nav-collapse.js"></script>
+  <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/tabs.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/nav-dropdown.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/prepend-svg.js"></script>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/google-maps.js"></script>

@@ -8,10 +8,12 @@ function initialize() {
     var mapOptions = {
       center: new google.maps.LatLng(44.5403, 1.5463),
       zoom: 12,
+      scrollwheel: false,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     }
     map = new google.maps.Map(mapCanvas, mapOptions);
     codeAddress('Vasteland 78 3011 BN Rotterdam');
+
   }
 }
 

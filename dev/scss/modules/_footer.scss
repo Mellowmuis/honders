@@ -2,7 +2,6 @@
 	position:relative;
 	background:$c-primary;
 	color:white;
-	padding-top:20px;
 	h4{
 		color:white;
 		line-height: 1;
@@ -19,11 +18,12 @@
 	}
 }
 .footer-keur{
-	background-image: url(../img/whitefooter.svg);
-	background-size:100%;
+	background-image: url(../img/whitefooter1.svg);
+	background-size:cover;
 	background-repeat:no-repeat;
 	height:183px;
-	margin-top: -21px;
+	text-align:center;
+	padding-top:15px;
 }
 .Footer-inner {
 }

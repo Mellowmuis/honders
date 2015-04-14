@@ -13,19 +13,52 @@
 	position: relative;
 }
 .slider-grid{
-
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	z-index: 999;
+	.u-gridCol4{
+		float:right;
+	}
+	.u-gridCol3{
+		float:right;
+	}
 	.white-bg{
-		background:white;
-		a{
+		
+		background-image:url(../img/whitemenu1.svg);
+		background-size:100%;
+		background-repeat:no-repeat;
+		margin-bottom: -24px;
+		padding:20px 40px;
+		padding-top:20px;
 
+		a{
+			color:black;
+			font-size: 1.1rem;
+			text-decoration: none;
+			&:hover{
+				color:white;
+			}
+			&:first-child{
+				color:white;
+			}
+		}
+		ul{
+			margin-top: 0px;
 		}
 		li{
 			width:100%;
-			background:grey;
-			border-radius:15px;
+			background:#dcddde;
+			border-radius:5px;
 			padding:10px 20px;
 			margin-bottom:10px;
+			&:hover{
+				background:$c-primary;
+			}
 		}
+	}
+	.blue-back{
+		background:$c-primary !important;
 	}
 }
 .slider-text{

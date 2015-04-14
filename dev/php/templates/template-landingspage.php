@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Homepage
+Template Name: landingspage
 */
 ?>
 
@@ -11,11 +11,11 @@ Template Name: Homepage
 			<div class="u-gridCol4">
 				<div class="white-bg">
 					<ul>
-						<a href="/rechtsgebieden-2/"><li class="blue-back">PERSONEN & FAMILIERECHT</li></a>
-						<a href="/rechtsgebieden-2/"><li>SOCIALE ZEKERHEIDSRECHT</li></a>
-						<a href="/rechtsgebieden-2/"><li>ARBEIDSRECHT</li></a>
-						<a href="/rechtsgebieden-2/"><li>CIVIELRECHT</li></a>
-						<a href="/rechtsgebieden-2/"><li>ERFRECHT</li></a>
+						<a href="#"><li class="blue-back">PERSONEN & FAMILIERECHT</li></a>
+						<a href="#"><li>SOCIALE ZEKERHEIDSRECHT</li></a>
+						<a href="#"><li>ARBEIDSRECHT</li></a>
+						<a href="#"><li>CIVIELRECHT</li></a>
+						<a href="#"><li>ERFRECHT</li></a>
 					</ul>
 				</div>
 			</div>
@@ -56,7 +56,7 @@ Template Name: Homepage
 	
 
 	<div class="home-wrapper">
-		<div class="u-gridContainer">
+		<div class="u-gridContainer"> 
 			<div class="u-gridRow">
 				<div class="u-gridCol8">
 					<h2>Welkom bij Advocatenkantoor Honders</h2>
@@ -72,7 +72,7 @@ Template Name: Homepage
 				<div class="u-gridCol8">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<article class="Content Content--home" id="post-<?php the_ID(); ?>">
-							<h4>Eigentijdse benadering</h4>
+							<h4><?php the_title(); ?></h4>
 							<div>
 								<?php the_content(); ?>
 								<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
