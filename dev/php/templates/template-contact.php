@@ -20,11 +20,11 @@ Template Name: Contactpage
 					<div class="u-gridRow">					
 						<div class="adress u-gridCol4">
 							<div class="adress-info">
-								<p>Honders</p>
+								<p>Advocatenkantoor Mr. Honders</p>
 								<p>Vasteland 78</p>
 								<p>3011 BN Rotterdam</p>
-								<p>Email: jmfhonders@gmail.com</p>
-								<p>Tel: 020-7508800</p>
+								<p>Email:<a href="mailto:jmfhonders@gmail.com"> jmfhonders@gmail.com</a></p>
+								<p>Tel: <a href="tel:020-7508800"> 020-7508800</a></p>
 								<p>btw: NL136901621B01</p>
 							</div>
 	

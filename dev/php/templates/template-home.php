@@ -11,7 +11,7 @@ Template Name: Homepage
 			<div class="u-gridCol4">
 				<div class="white-bg">
 					<ul>
-						<a href="/rechtsgebieden-2/"><li class="blue-back">PERSONEN & FAMILIERECHT</li></a>
+						<a href="/familierecht"><li class="blue-back">PERSONEN & FAMILIERECHT</li></a>
 						<a href="/rechtsgebieden-2/"><li>SOCIALE ZEKERHEIDSRECHT</li></a>
 						<a href="/rechtsgebieden-2/"><li>ARBEIDSRECHT</li></a>
 						<a href="/rechtsgebieden-2/"><li>CIVIELRECHT</li></a>
@@ -48,21 +48,21 @@ Template Name: Homepage
 						<img src="<?php echo $image_url; ?>" />
 					</div>
 					<?php
-				}
+				} 
 			}
 		?>
 	</div>
 </div>	
-	
+	 
 
 	<div class="home-wrapper">
 		<div class="u-gridContainer">
 			<div class="u-gridRow">
 				<div class="u-gridCol8">
-					<h2>Welkom bij Advocatenkantoor Honders</h2>
+					<h2>Welkom bij Advocatenkantoor Mr. Honders</h2>
 				</div>
-				<div class="u-gridCol4">
-					<button class="tel-button"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tel-round.png"> 06-24844873</button> 
+				<div class="u-gridCol3">
+					<button href="tel:0624844873" class="tel-button"><i class="fa fa-phone-square"></i> 06-24844873</button>
 				</div>
 
 			</div>
@@ -81,16 +81,16 @@ Template Name: Homepage
 					<?php endwhile; endif; ?>
 				</div>
 				<div class="u-gridCol4">
-					<div class="image-head">
-						<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hoofd.jpg">
-						<p>MR. J.M.F. Honders</p>
-					</div>	
+					<a href="/over">
+						<div class="image-head image-head-home">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hoofd.jpg">
+							<p>MR. J.M.F. Honders</p>
+						</div>	
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="u-gridContainer">
-	
-	</div>
 
+ 
 <?php get_footer(); ?>

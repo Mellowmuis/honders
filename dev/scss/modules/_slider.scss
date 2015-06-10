@@ -2,7 +2,7 @@
 	position:absolute;
 	width:50%;
 	@include background-image(linear-gradient(to right, #fff, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0) ));
-	top:30%;
+	top:35%;
 	color:$c-primary;
 	h1{
 		font-size: 25px;
@@ -62,9 +62,10 @@
 	}
 }
 .slider-text{
-	width:350px;
+	//width:350px;
 	float:right;
 	margin-right:20%;
+	margin-left:10%;
 }
 .Slider {
 	visibility: hidden;

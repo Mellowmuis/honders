@@ -20,9 +20,9 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/apple-touch-icon.png">
-
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/apple-touch-icon.png">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
     <!-- /build -->
@@ -42,9 +42,9 @@
   <body <?php body_class(); ?> >
 <nav class="Header">
     <div class="u-gridContainer">
-        <div class="u-gridCol4">
-            <h1>ADVOCATENKANTOOR HONDERS</h1>
-        </div>
+        <div class="u-gridCol4" style="margin-right:0px;">
+        <a class="logo-link" href="/home">  <h1>ADVOCATENKANTOOR MR. HONDERS</h1></a>  
+        </div> 
         <div class="Bot-Nav u-gridCol8">
 
         	<div class="Nav-toggle u-cf">
@@ -64,7 +64,7 @@
         			</svg>
         		</a>
         	
-                    <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:jmfhonders@gmail.com">
+                <a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:jmfhonders@gmail.com">
         			<svg class="Icon Icon--inline" viewBox="0 0 128 128">
         				<use xlink:href="#icon-envelope"></use>
         			</svg>

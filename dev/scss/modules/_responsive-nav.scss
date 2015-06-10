@@ -14,7 +14,7 @@
   border-radius: 7px;
   margin-top: 7px;	
   background-color: transparent;
-  border: 3px solid white;
+  border: 3px solid white !important;
   cursor: pointer;
   float: right;    
 	&:hover {
@@ -58,11 +58,11 @@
 	 #js-navCollapseTarget {
 		display: none;
         position: relative;
-        top: 65px;
+      //  top: 65px;
         left: 0;
         margin: 0;
         width: 100%;
-        box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.3) inset;
+       // box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.3) inset;
 	 }
 
 	 .Bot-Nav {
@@ -89,9 +89,9 @@
 
 	.Navigation-list {
 		position: static;
-        background-color: rgba(0, 78, 117, 1);
+       // background-color: rgba(0, 78, 117, 1);
         border: 0px solid;
-        box-shadow: 0 0 0 #fff;
+       // box-shadow: 0 0 0 #fff;
 
 
 	}
@@ -122,12 +122,12 @@
 		}
 
         &:first-of-type a {       
-          box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.1) inset;
+        //  box-shadow: 0px 30px 20px -20px rgba(0, 0, 0, 0.1) inset;
           padding-top: 10px;  
         }
 
         &:last-of-type a {              
-          box-shadow: 0px 15px 20px -18px rgba(0, 0, 0, 0.6);
+        //  box-shadow: 0px 15px 20px -18px rgba(0, 0, 0, 0.6);
           border-bottom: 0px solid;
         }
 
@@ -142,8 +142,9 @@
 		margin: 0;
 		font-weight: 400;
 		letter-spacing: 1.7px;
+		border-bottom:1px solid white;
 	    &:hover {
-            background-color: #1e719a;
+        //    background-color: #1e719a;
             color: white;
         }
 
@@ -176,10 +177,14 @@
 		}
 
 		.telsvg {
-			left: 10px;				
+			right: 150px;	
+					
 			.Icon--inline {
-				margin: -4px;
+				margin: 4px;
 				margin-top: 5px;
+				width:25px;
+				height:25px;
+				font-size: 6px;	
 			}
 		}
 
@@ -192,10 +197,14 @@
 		}
 
 		.mailsvg {
-			left: 100px;				
+			right: 200px;
+							
 			.Icon--inline {
-				margin: -4px;
+				margin: 4px;
 				margin-top: 5px;
+				width:25px;
+				height:25px;
+				font-size: 6px;
 			}
 		}
 	}
@@ -205,6 +214,7 @@
   #js-navCollapse {
     display: none;
   }
+
 }
 
 @media all and (max-width: 500px) { 

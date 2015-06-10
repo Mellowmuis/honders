@@ -33,9 +33,9 @@
 			<div class="u-gridCol3" style="margin-top:20px;">
 				<b>Contact</b>
 				<ul>
-					<li>06-24844873</li>
-					<li>020-7508800</li>
-					<li>jmfhonders@gmail.com</li>
+					<li><a style="color:white;" href="tel:0624844873"><i class="fa fa-phone"></i>&nbsp;06-24844873</a></li>
+					<li><i class="fa fa-print"></i>&nbsp;020-7508800</li>
+					<li><a style="color:white;" href="mailto:jmfhonders@gmail.com"><i class="fa fa-envelope"></i>&nbsp;jmfhonders@gmail.com</a></li>
 				</ul>
 			</div>
 
@@ -52,7 +52,10 @@
 	</div> 
 
 	<div class="Socket">
-		<div class="u-gridContainer">
+		<div class="u-gridContainer" style="text-align:center; margin-top:20px;">
+			<div class="u-gridRow">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bot.png">
+			</div>
 			<!-- Copyright info -->
 			<p>&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website & SEO door 
 					<a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden</a>
